@@ -1,0 +1,29 @@
+/* FooterColumn.module.css */
+.column {
+    width: 45%;
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 8px;
+  }
+  
+  .column a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .column a:hover {
+    text-decoration: underline;
+  }
+  

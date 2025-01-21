@@ -1,0 +1,107 @@
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  height: 900px;
+  background-color: rgb(230, 227, 227);
+  width: 100%;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.infoContainer {
+  top: 0; 
+  position: sticky;
+  z-index: 10;
+  width: 50%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 64px;
+  color: #000000;
+  font-family: 'NeueHaas';
+  font-weight: 600;
+  padding-left: 300px;
+}
+
+.description {
+  padding-left: 300px;
+  font-size: 1.2rem;
+  color: #000000;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.counter {
+  padding-top: 20px;
+  padding-left: 320px;
+  max-width: 100%;
+  position: sticky;
+  z-index: 10;
+  background-color: rgb(230, 227, 227);
+}
+
+
+.imageContainer {
+  width: 50%;
+  max-height: 920px;
+  position: relative;
+  display: block;
+  padding: 14px;
+  margin-left: 200px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.contentContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.image {
+  position: relative;
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 12rem;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 100%;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .contentContainer {
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .infoContainer {
+    width: 100%;
+    text-align: center;
+    padding-left: 0; 
+  }
+
+  .title {
+    padding-left: 0;
+    font-size: 32px; 
+  }
+
+  .description {
+    padding-left: 0; 
+    font-size: 1rem; 
+    text-align: center; 
+  }
+
+  .imageContainer {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0; 
+  }
+
+  .image {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+}

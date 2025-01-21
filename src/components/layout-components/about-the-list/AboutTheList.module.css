@@ -1,0 +1,52 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .aboutTitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .breakthroughTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .exploreArchives {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+  }
+  
+  .exploreArchives:hover {
+    color: #555;
+    border-bottom-color: #555;
+  }
+  
+  .credits {
+    text-align: left;
+    margin-top: 40px;
+  }
+  
+  .creditItem {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  

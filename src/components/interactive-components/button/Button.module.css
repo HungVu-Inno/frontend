@@ -1,0 +1,16 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .prefix {
+    margin-right: 5px;
+  }
+  
+  .postfix {
+    margin-left: 5px;
+  }
+  

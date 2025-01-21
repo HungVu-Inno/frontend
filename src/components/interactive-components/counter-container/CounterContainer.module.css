@@ -1,0 +1,29 @@
+.counterContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    position: sticky;
+  }
+  
+  .counterItem {
+    font-size: 1.3rem;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+  }
+  
+  .counterItem.active {
+    transform: scale(1.5); 
+  }
+  @media (max-width: 768px) {
+    .counterContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+      }
+}
+  
